@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Spinnaker', sans-serif;
+}
+
+img {
+  width: 100px;
+}
+
+.hero-section {
+  background-image: url("images/Berlin2.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  margin: 0;
+  transition: background-color 0.3s ease;
+}
+
+#visit-berlin,
+.cta-berlin {
+  background-color: #1D3557;
+  padding: 5px 10px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-berlin {
+  background-color: #457B9D;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.places-berlin {
+  background-color: #F1FAEE;
+  padding: 5px;
+  color: #1D3557;
+  transition: background-color 0.3s ease;
+}
+
+.places-berlin img,
+.facts-berlin img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease;
+}
+
+.places-berlin img:hover,
+.facts-berlin img:hover {
+  transform: scale(1.1);
+}
+
+#places-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+
+p {
+  font-size: 11px;
+  text-align: center;
+  margin: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 1000;
+}
+
+.card {
+  width: 300px;
+  height: 125px;
+  margin: 20px auto;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #F1FAEE;
+  color: #1D3557;
+  border-bottom: 5px solid #A8DADC;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02);
+}
+
+#card-details {
+  display: flex;
+  margin-bottom: 0;
+}
+
+#guide-description {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+#avatar-pic img {
+  border-radius: 50%;
+  margin: 10px auto;
+  transition: transform 0.3s ease;
+  box-shadow: 1px 1px 20px #A8DADC;
+}
+
+#card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#avatar-pic img:hover {
+  transform: scale(1.1);
+}
+
+#places-details img:hover {
+  transform: scale(1.1);
+}
+
+.facts-berlin {
+  background-color: #457B9D;
+  padding: 5px;
+  color: #F1FAEE;
+  transition: background-color 0.3s ease;
+}
+
+#facts-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+
+#facts-details img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease;
+}
+
+#facts-details img:hover {
+  transform: scale(1.1);
+}
